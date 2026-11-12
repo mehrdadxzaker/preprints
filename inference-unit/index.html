@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Toward a Unit of AI Inference: Auditing Resource-Ratio Calibration</title>
+  <meta name="description" content="Research preprints by Mehrdad Zakershahrak and collaborators">
+  <link rel="canonical" href="https://mehrdadxzaker.github.io/preprints/inference-unit/">
+  <meta name="citation_title" content="Toward a Unit of AI Inference: Auditing Resource-Ratio Calibration">
+  <meta name="citation_author" content="Mehrdad Zakershahrak">
+  <meta name="citation_author_institution" content="Macquarie University">
+  <meta name="citation_author" content="Samira Ghodratnama">
+  <meta name="citation_author_institution" content="Macquarie University">
+  <meta name="citation_publication_date" content="2026/11/11">
+  <meta name="citation_year" content="2026">
+  <meta name="citation_abstract_html_url" content="https://mehrdadxzaker.github.io/preprints/inference-unit/">
+  <meta name="citation_pdf_url" content="https://mehrdadxzaker.github.io/preprints/inference-unit/resource-ratio-calibration-preprint.pdf">
+  <style>body{margin:0;background:#fff;color:#222;font:18px/1.65 Georgia,'Times New Roman',serif}main{max-width:48rem;margin:3rem auto;padding:0 1.25rem 3rem}h1,h2{line-height:1.25}h1{font-size:clamp(1.75rem,4vw,2.4rem);margin:0 0 1rem}h2{font-size:1.35rem;margin:0 0 .6rem}a{color:#0645ad;text-underline-offset:.15em}a:focus-visible{outline:2px solid #0645ad;outline-offset:3px}.papers{list-style:none;padding:0;margin:2rem 0}.papers article{padding:1.5rem 0;border-top:1px solid #d8dde2}.authors{margin:.5rem 0}.meta{font: .9rem/1.5 system-ui,sans-serif;color:#4b5563}.links a+a{margin-left:1rem}.back{display:block;margin-bottom:1.5rem}section{margin-top:2rem}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:.85rem/1.6 ui-monospace,SFMono-Regular,Consolas,monospace;background:#f6f7f8;border:1px solid #e1e5e8;padding:1rem}footer{border-top:1px solid #d8dde2;margin-top:2rem;padding-top:1rem}p{margin:.8rem 0}@media(max-width:520px){body{font-size:17px}main{margin:1.75rem auto}.links a{display:inline-block;margin:0 1rem .25rem 0}.links a+a{margin-left:0}}@media(min-width:900px){body{font-size:17px;line-height:1.5}main{max-width:64rem;margin:1.25rem auto}h1{font-size:1.75rem;margin-bottom:.5rem}p{margin:.5rem 0}.back{margin-bottom:1rem}section{margin-top:1.25rem}}</style>
+</head>
+<body>
+<main>
+<a class="back" href="../">All preprints</a>
+<article>
+  <header>
+    <h1>Toward a Unit of AI Inference: Auditing Resource-Ratio Calibration</h1>
+    <p class="authors">Mehrdad Zakershahrak and Samira Ghodratnama</p>
+    <p>School of Computing, Faculty of Science and Engineering,<br>Macquarie University, Sydney, Australia</p>
+    <p class="meta">Preprint · <time datetime="2026-11-11">2026</time> · 17 pages</p>
+    <p class="links"><a href="resource-ratio-calibration-preprint.pdf">Read the paper (PDF)</a><a href="#citation">Citation</a></p>
+  </header>
+  <section aria-labelledby="abstract">
+    <h2 id="abstract">Abstract</h2>
+    <p>Resource ratios between tasks offer a tempting way to normalize language-model efficiency across heterogeneous workloads. Such conversions require more than a close pooled fit: their meaning depends on acceptance rules, execution boundaries, reference systems, and the distribution of task comparisons. We audit these requirements in three public evaluation archives using local reanalysis. Across 81,438 matched Reasoning Gym first completions, median omitted-system reconstruction errors for visible response bytes are 2.308 and 2.596 in easy and hard settings; bytes omit separately returned reasoning. Independent exact arithmetic finds incorrect references for 28 of 50 hard decimal-sum questions, producing 117 archived rejections of exact correct answers. In a restricted METR panel of 6,996 runs, aggregate-token reconstruction lies within factor 1.25 for 75.8% of comparisons, with 67.3% coverage under exclusion of the held label&#x27;s provider proxy; individual-system coverage ranges from 48.5% to 97.4%. An engineering release exposes outcome-dependent missing telemetry and aggregation sensitivity. Constructed studies distinguish taxonomy effects, sparse-bridge identification, and accounting-error bounds from empirical validation. The contribution is a reproducible audit of resource-ratio calibration and its failure modes. None of the archives identifies minimum resource cost at a common reliability target or validates a unit of useful inference work.</p>
+  </section>
+  <section aria-labelledby="citation">
+    <h2 id="citation">Citation</h2>
+    <p>Mehrdad Zakershahrak and Samira Ghodratnama. 2026. <cite>Toward a Unit of AI Inference: Auditing Resource-Ratio Calibration</cite>. Preprint.</p>
+    <pre><code>@misc{zakershahrak2026inferenceunit,
+  title = {{Toward a Unit of AI Inference: Auditing Resource-Ratio Calibration}},
+  author = {Zakershahrak, Mehrdad and Ghodratnama, Samira},
+  year = {2026},
+  note = {Preprint},
+  url = {https://mehrdadxzaker.github.io/preprints/inference-unit/}
+}</code></pre>
+  </section>
+</article>
+</main>
+</body>
+</html>
